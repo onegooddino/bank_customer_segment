@@ -11,7 +11,7 @@ with open('cluster.pkl', 'rb') as model_file:
 with open('scaler.pkl', 'rb') as scale:
     scaler= pickle.load(scale)
 warnings.filterwarnings('ignore')
-results=['High credit,long duration,Young customer','Low credit,Short duration,Young customer','Low credit,Short duration,Old customer','High credit,Mid Duration,Old Customer']
+results=['High credit,Long duration,Young customer','Low credit,Short duration,Young customer','Low credit,Short duration,Old customer','High credit,Mid Duration,Old Customer']
 
 
 @app.route('/')
